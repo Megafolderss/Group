@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Access exclusive VIP group content with lifetime membership">
+    <meta name="keywords" content="vip group, exclusive content, lifetime access">
+    <meta name="theme-color" content="#ffffff">
+    <title>HotHub | Group Vip</title>
+    
+    <!-- Preconnect para recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <link rel="stylesheet" href="assets/css/vip.style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/img/icon.svg">
+</head>
+<body>
+    <div class="offer-header" role="banner">
+        <div class="offer-timer" aria-live="polite">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span>Limited time offer expires in: <span id="timer">03:00</span></span>
+        </div>
+    </div>
+
+    <main class="main-content" role="main">
+        <h1>Access exclusive content in the <span class="gradient-text">VIP Group</span></h1>
+        <div class="video-container">
+            <video 
+                id="mainVideo"
+                autoplay 
+                muted
+                loop 
+                playsinline
+                webkit-playsinline
+                x5-playsinline
+                x5-video-player-type="h5"
+                x5-video-player-fullscreen="true"
+                preload="auto"
+                aria-label="Promotional video"
+                loading="eager"
+                poster="assets/img/poster.jpg"
+                style="width: 100%; height: auto; pointer-events: none;"
+                volume="1"
+                controlsList="nodownload nofullscreen noremoteplayback"
+                disablePictureInPicture
+                disableRemotePlayback
+            >
+                <source src="assets/video/vsl.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+            <div class="video-controls" role="group" aria-label="Video controls">
+                <button id="playPauseBtn" class="control-btn" aria-label="Play/Pause">
+                    <i class="fas fa-pause" aria-hidden="true"></i>
+                </button>
+                <button id="muteBtn" class="control-btn" aria-label="Mute/Unmute">
+                    <i class="fas fa-volume-mute" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="viewers-count" aria-live="polite">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+                <span id="viewerCounter">485</span> watching now
+            </div>
+        </div>
+        
+        <div class="offer-wrapper">
+            <div class="offer-container" role="region" aria-label="VIP offer">
+                <h2>Join the VIP group, now with lifetime access</h2>
+                <p class="bonus-text">More than 10 Mega Link bonus packages</p>
+                
+                <a href="#" class="vip-button" role="button">
+                    <i class="fas fa-lock" aria-hidden="true"></i>
+                    GET VIP ACCESS NOW | $35
+                </a>
+
+                <div class="payment-methods" role="list" aria-label="Available payment methods">
+                    <div class="payment-method">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Card Bank</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fab fa-paypal"></i>
+                        <span>PayPal</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fab fa-bitcoin"></i>
+                        <span>Crypto</span>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fab fa-apple-pay"></i>
+                        <span>Apple Pay</span>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="https://t.me/Dm_Sellerr?text=Hello!%20I%20would%20like%20to%20buy%0A%0AContent:%20Access%20to%20the%20VIP%20group%20of%20Cp.%20Buy%20Teens%20and%20all%20other%20leaked%20content%0ADescription:%0AExclusive%20high%20quality%20content%20%E2%80%A2%20Lifetime%20access%20%E2%80%A2%20Instant%20delivery" class="telegram-button">
+                <i class="fab fa-telegram"></i>
+                Contact via Telegram
+            </a>
+        </div>
+    </main>
+   
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/img/logo.png" alt="HotHub Logo" width="140" height="140">
+            </div>
+            <div class="footer-divider" aria-hidden="true"></div>
+            <div class="footer-warning">
+                <span class="warning-text">Content for adults over 18 years old</span>
+                <span class="copyright">© 2025 All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="assets/js/vip.script.js" defer></script>
+    <script src="assets/js/vip.security.js" defer></script>
+    <div id="paymentPopup">
+        <div class="popup-content">
+            <button class="close-popup">&times;</button>
+            <h2>Choose a payment option | <span class="price-highlight">Price $35</span></h2>
+            <p><b>You will receive VIP access after payment.</b> If your payment fails, contact us on Telegram.</p>
+            <div class="popup-buttons">
+                <a href="https://t.me/Dm_Sellerr" class="vip-button paypal-btn popup-btn">
+                    <i class="fab fa-paypal"></i>
+                    Card or PayPal
+                </a>
+                <a href="https://t.me/Dm_Sellerr?text=Hello!%20I%20would%20like%20to%20buy%0A%0AContent:%20Access%20to%20the%20VIP%20group%20of%20Cp.%20Buy%20Teens%20and%20all%20other%20leaked%20content%0ADescription:%0AExclusive%20high%20quality%20content%20%E2%80%A2%20Lifetime%20access%20%E2%80%A2%20Instant%20delivery" class="telegram-button popup-btn">
+                    <i class="fab fa-telegram"></i>
+                    Contact via Telegram
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="confirmation-modal" id="confirmationModal">
+        <div class="modal-content">
+            <h3>Confirmação</h3>
+            <p>Tem certeza que deseja continuar?</p>
+            <div class="modal-buttons">
+                <button class="modal-button confirm" id="confirmButton">Sim, continuar</button>
+                <button class="modal-button cancel" id="cancelButton">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
